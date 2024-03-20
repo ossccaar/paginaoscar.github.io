@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 4px solid white;
+    margin-left: 50px;
+    margin-top: -100px;
+}
+
+.container {
+    border: 0;
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 80vh;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.portada {
+    background-color: #3ED3DA;
+    width: 100%;
+    height: 20vh;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1 {
+    padding: 20px;
+}
+
+.locacion {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.ocupacion {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.descripcion {
+    width: 60%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
